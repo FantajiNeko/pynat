@@ -74,8 +74,7 @@ CHANGED_ADDRESS = b'\x00\x05'
 XOR_MAPPED_ADDRESS = b'\x00\x20'
 
 # List of classic STUN servers
-STUN_SERVERS = [('stun.ekiga.net', 3478), ('stun.ideasip.com', 3478), ('stun.voiparound.com', 3478),
-                ('stun.voipbuster.com', 3478), ('stun.voipstunt.com', 3478), ('stun.voxgratia.org', 3478)]
+STUN_SERVERS = [('stun.syncthing.net', 3478), ('stun.bige0.com', 3478)]
 
 
 def ORD(ch):   # compatible to python3
